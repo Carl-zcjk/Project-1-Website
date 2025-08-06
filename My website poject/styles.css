@@ -1,0 +1,833 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    color: #fff;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    grid-row: 1;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hawkes-bay-css {
+    background: url('../toby-hall-vvuVkty8u84-unsplash.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 45vh 1rem;
+    height: auto;
+    grid-row: 2;
+}
+
+.animation-hawkes-bay {
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 30vh 1rem;
+    height: auto;
+    grid-row: 3;
+}
+
+.animation-hawkes-bay-photo {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 1rem;
+    height: auto;
+    grid-row: 3;
+}
+
+.hawkes-bay-photo-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../HB-through-a-lens-1600x650.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 50vh;
+    width: 140vh;
+    grid-row: 3;
+    border-radius: 50px;
+}
+
+.animation-napier {
+    place-items: center;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    background: #000000;
+    padding: 30vh 1rem;
+    height: auto;
+    grid-row: 4;
+    border-radius: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.napier-photo-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../Napier-City-sunrise-7.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../istockphoto-1210405220-612x612.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../Hawke\'s-Bay-Napier-sound-shell.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-1-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../main-new-zealand-north-island-itinerary-8.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-1-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../3tfgc9djq4261.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-1-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../bag-end-hobbiton-movie-set-matamata-nz.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-2-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../0004_New+Zealand+Road+Trip+_+Two+Week+Itinerary+_+Part+1-+North+Island+_+HandZaround.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-2-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../wellington-new-zealand.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.napier-photo-2-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    background-size: contain;
+    background: url('../Mount+Manganui+view+point+North+Island+road+trip.jpg') no-repeat center center/cover;
+    padding: 10vh 1rem;
+    margin: 1vh;
+    height: 20vh;
+    width: auto;
+    grid-row: 5;
+    border-radius: 50px;
+}
+
+.photo-alignment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.south-island-css {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 10vh 1rem;
+    height: auto;
+    grid-row: 6;
+}
+
+.south-photo-1 {
+    background: url('../mountain-lake-new-zealand-si_h.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    place-items: center;
+    width: auto;
+    padding: 20vh 1rem;
+    grid-row: 6;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.south-photo-2 {
+    background: url('../235412-Canterbury.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    place-items: center;
+    width: auto;
+    padding: 20vh 1rem;
+    grid-row: 6;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.south-photo-3 {
+    background: url('../F4405914-E7CA-414B-9FF3-310B0DDFB530.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    place-items: center;
+    width: auto;
+    padding: 20vh 1rem;
+    grid-row: 6;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.south-photo-4 {
+    background: url('../DSC_0638.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    place-items: center;
+    width: auto;
+    padding: 20vh 1rem;
+    grid-row: 6;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.photo-alignment-south {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.south-p-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.exciting-place-css {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 20vh 1rem;
+    height: auto;
+    grid-row: 7;
+}
+
+.exciting-photo-1 {
+    background: none;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: center;
+    place-items: center;
+    width: 140vh;
+    padding: 1rem;
+    grid-row: 7;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.exciting-photo-1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.best-routes-css {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 1rem;
+    padding-top: 20vh;
+    height: auto;
+    grid-row: 8;
+}
+
+.routes-css {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 1rem;
+    padding-bottom: 20vh;
+    height: auto;
+    grid-row: 9;
+}
+
+.reviews-p-css {
+    text-align: center;
+    padding: 10vh;
+    margin: 0 auto;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.slider-container-routes {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.slider-routes {
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% - 20px));
+    gap: 0 20px;
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+}
+
+.routes-photo-1 {
+    background: url('../img-1536.jpg') no-repeat center center;
+}
+
+.routes-photo-2 {
+    background: url('../018A4453.jpg') no-repeat center center;
+}
+
+.routes-photo-3 {
+    background: url('../Aerial\ view\ of\ Queenstown_AdobeStock_238212130.jpg') no-repeat center center;
+}
+
+.routes-photo-1, .routes-photo-2, .routes-photo-3 {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    min-width: 100%;
+    padding: 20vh 12vh;
+    grid-row: 9;
+    box-sizing: border-box;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 0;
+}
+
+/* Airplane animation */
+.airplane-animation {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.airplane {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('../7893979.jpg') no-repeat center center;
+    background-size: contain;
+    animation: fly 10s linear infinite;
+    z-index: 2; /* Ensure the airplane is on top */
+}
+
+/* Curvy trailing line with breaks */
+.airplane::after {
+    content: '';
+    position: absolute;
+    width: 1000px; /* Make the line very long */
+    height: 40px; /* Height for the curvy effect */
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><path d="M0 10 Q25 0 50 10 T100 10" stroke="white" stroke-width="2" fill="none" stroke-dasharray="5,5"/><path d="M0 15 Q25 5 50 15 T100 15" stroke="white" stroke-width="2" fill="none" stroke-dasharray="5,5"/></svg>') repeat-x;
+    top: 10%;
+    left: -1000px; /* Start the line behind the airplane */
+    transform-origin: right; /* Scale from the right */
+    animation: trail 10s linear infinite;
+    z-index: 1; /* Ensure the trail is behind the airplane */
+}
+
+.estimation {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    color: #fff;
+}
+
+@keyframes fly {
+    0% {
+        left: -50px;
+        top: 50%;
+    }
+    50% {
+        left: 50%;
+        top: 30%;
+    }
+    100% {
+        left: 100%;
+        top: 50%;
+    }
+}
+
+@keyframes trail {
+    0% {
+        transform: scaleX(0); /* Start with no line */
+    }
+    100% {
+        transform: scaleX(1); /* Fully extend the line backward */
+    }
+}
+
+.prev-routes, .next-routes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.prev-routes {
+    left: 10px;
+}
+
+.next-routes {
+    right: 10px;
+}
+
+.reviews-css {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-rows: center;
+    place-items: center;
+    padding: 20vh 1rem;
+    height: auto;
+    grid-row: 10;
+}
+
+.reviews-photo {
+    background: #000000;
+    color: #fff;
+    text-align: left; /* Align text to the left */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    place-items: start; /* Align items to the start (left) */
+    padding: 0 1rem;
+    height: auto;
+    grid-row: 10;
+    justify-self: start; /* Move the container to the left side */
+}
+
+.slider-container-reviews {
+    position: relative;
+    width: 180vh;
+    max-width: 180vh;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.slider-reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+    min-width: 200%;
+    gap: 0 20px;
+    padding: 5vh 1rem;
+    animation: slide 50s linear infinite;
+    align-items: center;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); } /* Adjust this value based on the number of slides */
+    100% { transform: translateX(0); }
+}
+
+.reviews-photo-1, .reviews-photo-2, .reviews-photo-3, .reviews-photo-1-1, .reviews-photo-1-2, .reviews-photo-1-3 {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    width: 15vh;
+    padding: 20vh 1rem;
+    grid-row: 10;
+    box-sizing: border-box;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-reviews div:hover {
+    transform: scale(1.2); /* Enlarge the content under the pointer */
+}
+
+.slider-container-reviews:hover .slider-reviews {
+    cursor: pointer;
+    animation-play-state: paused; /* Pause the slideshow on hover */
+}
+
+.reviews-photo-1 {
+    background: url('../sulthan-auliya-pbwdi8kvdn8-unsplash.jpg') no-repeat center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-photo-2 {
+    background: url('../img-153.jpg') no-repeat center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-photo-3 {
+    background: url('../EcoZip-Waiheke-Auckland.jpg') no-repeat center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-photo-1-1 {
+    background: url('../Bailey-and-her-mum-pose-for-a-photo-at-the-Hobbit-hole-you-are-allowed-to-enter-at-Hobbiton-Movie-Set.jpg.jpg') no-repeat center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-photo-1-2 {
+    background: url('../fiordland_lodge-1.jpg') no-repeat center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-photo-1-3 {
+    background: url('../Skyline-Rotorua_Luge-track-down-hill_Cameron-Mackenzie.jpg') no-repeat center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.prev-reviews, .next-reviews {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.prev-reviews {
+    left: 10px;
+}
+
+.next-reviews {
+    right: 10px;
+}
+
+.h1-fontsize {
+    font-size: 1.5cm;
+}
+
+.cta-button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: center;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    padding: 10vh 1rem;
+    grid-row: 11 ;
+}
+
+/* Mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .slider-routes {
+        grid-template-columns: 1fr;
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 10vh 6vh;
+        border-radius: 25px;
+    }
+
+    .slider-container-reviews {
+        width: 145vh;
+        max-width: 145vh;
+    }
+}
+
+/* Tablet devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .slider-routes {
+        grid-template-columns: repeat(2, calc(100% - 20px));
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 15vh 8vh;
+        border-radius: 35px;
+    }
+
+    .slider-container-reviews {
+        width: 145vh;
+        max-width: 145vh;
+    }
+}
+
+/* Desktop devices (min-width: 769px) */
+@media (min-width: 769px) {
+    .slider-routes {
+        grid-template-columns: repeat(3, calc(100% - 20px));
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 20vh 12vh;
+        border-radius: 50px;
+    }
+
+    .hawkes-bay-css {
+        padding: 45vh 1rem;
+    }
+}
+
+/* Desktop devices (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .slider-routes {
+        grid-template-columns: repeat(3, calc(100% - 20px));
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 20vh 12vh;
+        border-radius: 50px;
+    }
+
+    .hawkes-bay-css {
+        padding: 45vh 1rem;
+    }
+}
+
+/* Desktop devices (min-width: 1600px) */
+@media (min-width: 1600px) {
+    .slider-routes {
+        grid-template-columns: repeat(3, calc(100% - 20px));
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 20vh 12vh;
+        border-radius: 50px;
+    }
+
+    .hawkes-bay-css {
+        padding: 45vh 1rem;
+    }
+}
+
+/* Desktop devices (min-width: 1920px) */
+@media (min-width: 1920px) {
+    .slider-routes {
+        grid-template-columns: repeat(3, calc(100% - 20px));
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 20vh 12vh;
+        border-radius: 50px;
+    }
+
+    .hawkes-bay-css {
+        padding: 45vh 1rem;
+    }
+}
+
+/* 4K resolution (min-width: 2560px) */
+@media (min-width: 2560px) {
+    .slider-routes {
+        grid-template-columns: repeat(4, calc(100% - 20px));
+    }
+
+    .routes-photo-1, .routes-photo-2, .routes-photo-3 {
+        padding: 25vh 15vh;
+        border-radius: 60px;
+    }
+
+    .hawkes-bay-css {
+        padding: 45vh 1rem;
+    }
+}
